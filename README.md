@@ -5,7 +5,7 @@
 
 ---
 
-## Lista de endpoints
+Lista de endpoints
 
 ---
 
@@ -23,22 +23,19 @@
 
 - **Metodo:** POST 
 - **URL:** http://localhost:8080/users
-- - **Body:**
-- {
+- **Body: {
   "name": "Diego",
   "email": "diego@gmail.com"
-}
+}**
 
 ### Actualizar un usuario 
 
 - **Metodo:** PUT
 - **URL:** http://localhost:8080/users/{id}
-- - **Body:**
-- {
+- **Body: {
   "name": "Diego Actualizado",
   "email": "diego2@gmail.com"
-
-}
+}**
 
 ### Eliminar un usuario 
 
